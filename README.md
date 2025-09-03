@@ -25,12 +25,12 @@ It uses **transfer learning with VGG16** and a **regression head** to predict th
 ## 📂 Project Structure
 ```
 crowd-counting/
-├── crowd_counting.ipynb # Main notebook (training + evaluation)
-├── requirements.txt # Dependencies
-├── README.md # This file
-├── .gitignore # Ignore unnecessary files
+├── crowd_counting.ipynb 
+├── requirements.txt
+├── README.md
+├── .gitignore=
 └── assets/
-└── crowd_counting_flow.png # Workflow diagram
+  └── crowd_counting_flow.png 
 ```
 
 ---
@@ -69,11 +69,6 @@ jupyter notebook
 - Performance is measured using **Mean Absolute Error (MAE)**:  
   - **MAE** = average difference between predicted count and actual ground truth.  
   - A **lower MAE** indicates better performance.  
-
-### Example:
-Ground Truth: 120 people
-Predicted: 115 people
-MAE = 5
 
 ---
 
