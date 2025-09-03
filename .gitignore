@@ -1,0 +1,19 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Data and models (large files should not go into GitHub)
+data/
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+
+# System files
+.DS_Store
+Thumbs.db
