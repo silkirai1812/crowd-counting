@@ -7,7 +7,6 @@ It uses **transfer learning with VGG16** and a **regression head** to predict th
 
 ## 📊 Workflow
 
-![Crowd Counting Flow](assets/crowd_counting_flow.png)
 
 1. **Data Preprocessing** – images are resized, normalized, and augmented.  
 2. **Feature Extraction** – VGG16 (pre-trained on ImageNet) extracts image features.  
@@ -24,6 +23,7 @@ It uses **transfer learning with VGG16** and a **regression head** to predict th
 ---
 
 ## 📂 Project Structure
+```
 crowd-counting/
 ├── crowd_counting.ipynb # Main notebook (training + evaluation)
 ├── requirements.txt # Dependencies
@@ -31,6 +31,7 @@ crowd-counting/
 ├── .gitignore # Ignore unnecessary files
 └── assets/
 └── crowd_counting_flow.png # Workflow diagram
+```
 
 ---
 
@@ -40,18 +41,24 @@ crowd-counting/
 ```bash
 git clone https://github.com/<your-username>/crowd-counting.git
 cd crowd-counting
+```
 
 2. Create a virtual environment
+```bash
 python -m venv .venv
 # Activate
 # Windows: .venv\Scripts\activate
 # macOS/Linux:
 source .venv/bin/activate
+```
 
 3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 4. Run Jupyter Notebook
+```bash
 jupyter notebook
 ```
 
