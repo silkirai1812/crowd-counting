@@ -68,7 +68,21 @@ jupyter notebook
 - The model successfully learns to **predict crowd counts** from images using transfer learning with VGG16.  
 - Performance is measured using **Mean Absolute Error (MAE)**:  
   - **MAE** = average difference between predicted count and actual ground truth.  
-  - A **lower MAE** indicates better performance.  
+  - A **lower MAE** indicates better performance.
+### Example Prediction
+![Sample Prediction](assets/sample_prediction.png)
+ 
+
+---
+
+## 🌐 Live Demo
+
+Try the project live on **Hugging Face Spaces** 🚀  
+
+👉 [Live Crowd Counting App](https://huggingface.co/spaces/silkirai/crowd-counting)  
+
+Built with **Gradio** for an interactive web interface.  
+You can upload an image, and the app will predict the estimated crowd count instantly.
 
 ---
 
