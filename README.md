@@ -28,7 +28,7 @@ crowd-counting/
 ├── crowd_counting.ipynb 
 ├── requirements.txt
 ├── README.md
-├── .gitignore=
+├── .gitignore
 └── assets/
   └── crowd_counting_flow.png 
 ```
